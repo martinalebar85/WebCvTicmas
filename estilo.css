@@ -1,0 +1,20 @@
+div{
+    border-color: black;
+    border-style: double;
+}
+nav {
+    border-color: blue;
+    border-style: groove;
+    margin-bottom: 5px;
+}
+
+img{
+    border-radius: 50%;
+    float: left;
+}
+p{
+    border-right: 10px;
+}
+.infopers{
+    list-style: square;  
+}

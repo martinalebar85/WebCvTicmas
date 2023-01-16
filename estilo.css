@@ -17,7 +17,19 @@ html {
   h3{
     color: #333;
   }
-  /* Header/logo Title */
+
+  .ir-arriba {
+    display:none;
+    padding:20px;
+    background:#024959;
+    font-size:20px;
+    color:#fff;
+    cursor:pointer;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+  }
+  /* Header*/
   .header {
     padding: 40px;
     text-align: center;
@@ -25,18 +37,18 @@ html {
     color: #333;
   }
   
-  /* Increase the font size of the heading */
+ 
   .header h1 {
     font-size: 40px;
   }
   
-  /* Style the top navigation bar */
+  /* stilo barra de navegación */
   .navbar {
     overflow: hidden;
     background-color: #333;
   }
   
-  /* Style the navigation bar links */
+  /* link de barra de navegación */
   .navbar a {
     float: left;
     display: block;
@@ -46,7 +58,7 @@ html {
     text-decoration: none;
   }
   
-  /* Right-aligned link */
+  /* parrafo alineado - barra de navegacion */
   .navbar a.right {
     float: right;
   }
@@ -56,13 +68,14 @@ html {
     background-color: #ddd;
     color: black;
   }
+  /*estilo de la foto*/
   #foto {
     width: 200px;
     border-radius: 50%;
     display: block;
     margin: auto;
   }
-  /* Column container */
+  /* columna */
   .row {  
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -84,7 +97,7 @@ html {
   .side h2{
     color:#333;
   }
-  /* Main column */
+  /* main */
   .main {   
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
@@ -99,7 +112,7 @@ html {
     padding: 20px;
   }
   
-  /* Footer */
+  /* pie de pagina */
   .footer {
     padding: 20px;
     text-align: center;
